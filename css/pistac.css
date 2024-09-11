@@ -1,0 +1,165 @@
+
+.whole {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.image img {
+  /* margin-top:50px; */
+  width: 100px; 
+  height: 100px; 
+}
+
+nav.main1 {
+  text-align: right;
+  margin-right: 40px;
+  position: relative;
+  /* margin-bottom: 10px; */
+
+}
+
+ul.first  {
+  list-style-type: none;
+  /* margin: 10px; */
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin-right: 10px; 
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.soc{
+  margin-right:1250px;
+}
+
+.fa-instagram{
+ 
+  font-size: 20px;
+}
+
+.fa-twitter{
+
+  font-size: 20px; 
+}
+.fa-facebook{
+
+  font-size: 20px;
+}
+
+nav.main2{
+  text-align: left;
+  margin-left: -40px;
+  /* margin-bottom: 400px; */
+  display: flex;
+  padding: 10px; 
+  
+
+}
+
+ul.second{
+  font-size: 17px;
+  font-style:normal;
+  
+}
+
+.fa-magnifying-glass{
+  color: grey;
+  
+}
+
+.sel{
+  border: none;
+  padding: 10px;
+
+}
+
+
+footer{
+  color: white;
+  background-color: #222222;
+
+}
+
+.foot{
+  padding-left: 10%;
+  width: 100%;
+  padding-bottom: 200px;
+  /* border:solid white 2px; */
+}
+.head >td{
+  padding:20px;
+  font-size: larger;
+  /* border:solid white 2px; */
+  padding-left:5px;
+  padding-left:5px;
+  width:50px;
+  font-stretch: narrower;
+  font-weight:lighter;
+
+}
+td{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  padding-right:20px;
+  }
+
+.sub{
+  border: none;
+  border-radius: 30px;
+  background-color: lightblue;
+}
+
+.orderby{
+    position: absolute;
+    height: 34px;
+    font-size: 14px;
+    appearance: menulist-button;
+    width: 228px;
+    color: rgb(91, 91, 91);
+}
+
+.one1:hover{
+    background-color: rgb(177, 177, 177);
+    border-radius: 8px;
+}
+.two2:hover{
+    background-color: rgb(177, 177, 177);
+    border-radius: 8px;
+}
+.three3:hover{
+    background-color: rgb(177, 177, 177);
+    border-radius: 8px;
+}
+.four4:hover{
+    background-color: rgb(177, 177, 177);
+    border-radius: 8px;
+}
+.five5:hover{
+    background-color: rgb(177, 177, 177);
+    border-radius: 8px;
+}
+
+
+.bn{
+  position: relative;
+  size: 30px;
+  color: black;
+  background-color: gray;
+  padding: 5px;
+  width: 290px;
+  height: 40px;
+  border: 0px;
+  transition: 700ms;
+}
+.bn:hover{
+ color: white;
+ background-color: black;
+}
